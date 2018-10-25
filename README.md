@@ -8,4 +8,4 @@ Also, every day at 3 p.m. o'clock a new herder arrives with his goats.
 
 Task: necessary to transfer the animals to another herder at 2:00 p.m.
 
-Technology: Django, PostgreSQL, Celery, RabbitMQ, JavaScript (for visualization).
+Technology: Django, PostgreSQL, Celery, Redis, JavaScript (for visualization).
