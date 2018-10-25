@@ -14,7 +14,15 @@
 
     Herder today: {{ herder.name }}<br>
     Herders: {{ herders }}<br>
-    Goats: {{ goats }}<br>
+    Goats: {{ goats.count }}<br>
+
+    {% if new_herders %}
+        {% for new_herder in new_herders %}
+            <br>Today come new herder: {{ new_herder.name }}
+        {% endfor %}
+        <br>
+        Today comes new {{ new_goats.count }} goats
+    {% endif %}
 
 	</body>
 </html>
